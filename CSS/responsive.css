@@ -1,0 +1,114 @@
+/* ---- Mobile device max-width:  */
+@media screen and (max-width: 576px) {
+  body {
+    padding: 0 10px;
+  }
+  /* Nave Menu */
+  .nav-container {
+    text-align: center;
+    flex-direction: column;
+  }
+  .logo-container {
+    margin: 0 auto;
+    height: 40px;
+    margin-bottom: 60px;
+  }
+  .logo-text {
+    font-size: 2rem;
+  }
+  .logo-text > span {
+    font-size: 2.5rem;
+  }
+
+  .nav-bar {
+    flex-direction: column;
+    gap: 36px;
+  }
+
+  /* Banner section */
+
+
+}
+
+/* ------- Small Tab max-width: 768px */
+@media screen and (min-width: 576.2px) and (max-width: 768px) {
+  body {
+    padding: 0 15px;
+  }
+
+  /* Nave Menu */
+  .nav-container {
+    text-align: center;
+    flex-direction: column;
+  }
+  .logo-container {
+    margin: 0 auto;
+    height: 50px;
+    margin-bottom: 60px;
+  }
+  .logo-text {
+    font-size: 2.5rem;
+  }
+  .logo-text > span {
+    font-size: 3rem;
+  }
+  .nav-bar {
+    flex-direction: column;
+    gap: 36px;
+  }
+
+  /* Banner Section  */
+
+
+}
+
+/* large Tab Max-width: 992px */
+@media screen and (min-width: 768.2px) and (max-width: 992px) {
+   body {
+      padding: 0 20px;
+    }
+  /* NAv Menu */
+  .nav-container {
+    text-align: center;
+    flex-direction: column;
+  }
+  .logo-container {
+    margin: 0 auto;
+    height: 40px;
+    margin-bottom: 60px;
+  }
+  .nav-bar {
+    flex-direction: column;
+    gap: 36px;
+  }
+
+  /* Banner Section */
+}
+
+/* Small Laptops max-width:122px */
+@media screen and (min-width: 992.2px) and (max-width: 1128px) {
+   body {
+      padding: 0 20px;
+    }
+   /* Nav menu */
+  .logo-text {
+    font-size: 2.2rem;
+  }
+  .logo-text > span {
+    font-size: 2.8rem;
+  }
+  .nav-bar {
+    flex: 0 0 55%;
+  }
+  .follow-us {
+    flex: 0 0 55%;
+  }
+
+  /* Banner Section */
+}
+
+@media screen and (min-width: 1128.2px) and (max-width: 1440px) {
+   body {
+      padding: 0 20px;
+    }
+}
