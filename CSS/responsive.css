@@ -26,8 +26,45 @@
   }
 
   /* Banner section */
-
-
+  .banner {
+    margin-bottom: 50px;
+    background-image: none;
+  }
+  .banner-container {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  .banner-content-container {
+    width: 100%;
+    flex: 0 0 50%;
+    padding: 50px 0px;
+    background-image: url(../images/bg_banner.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-content {
+    padding: 0 8%;
+  }
+  .banner-title {
+    font-size: 2.5rem;
+  }
+  .banner-hero-text {
+    font-size: 5rem;
+  }
+  .banner-image {
+    padding: 0 8%;
+    flex: 0 0 50%;
+  }
+  .banner-image > img {
+    width: 100%;
+  }
+  .btn-primary {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+  }
 }
 
 /* ------- Small Tab max-width: 768px */
@@ -58,15 +95,43 @@
   }
 
   /* Banner Section  */
+  .banner {
+    margin-bottom: 50px;
+    background-image: none;
+  }
+  .banner-container {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  .banner-content-container {
+    width: 100%;
+    flex: 0 0 50%;
+    padding: 50px 0px;
+    background-image: url(../images/bg_banner.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-content {
+    padding: 0 8%;
+  }
 
-
+  .banner-image {
+    padding: 0 8%;
+    flex: 0 0 50%;
+  }
+  .banner-image > img {
+    width: 100%;
+  }
 }
 
 /* large Tab Max-width: 992px */
 @media screen and (min-width: 768.2px) and (max-width: 992px) {
-   body {
-      padding: 0 20px;
-    }
+  body {
+    padding: 0 20px;
+  }
   /* NAv Menu */
   .nav-container {
     text-align: center;
@@ -83,14 +148,54 @@
   }
 
   /* Banner Section */
+
+  .banner {
+    margin-bottom: 50px;
+    background-image: none;
+  }
+  .banner-content-container {
+    width: 100%;
+    flex: 0 0 50%;
+    padding: 50px 0px;
+    background-image: url(../images/bg_banner.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-content {
+    padding: 0 8%;
+  }
+  .banner-title {
+    font-size: 2rem;
+  }
+  .banner-hero-text {
+    font-size: 4rem;
+  }
+  .banner-list-text-1,
+  .banner-list-text-2,
+  .banner-list-text-3 {
+    font-size: 1rem;
+  }
+  .banner-image {
+    flex: 0 0 50%;
+  }
+  .banner-image > img {
+    width: 100%;
+  }
+  .btn-primary {
+    padding: 1rem 1.8rem;
+    font-size: 1rem;
+  }
 }
 
 /* Small Laptops max-width:122px */
 @media screen and (min-width: 992.2px) and (max-width: 1128px) {
-   body {
-      padding: 0 20px;
-    }
-   /* Nav menu */
+  body {
+    padding: 0 20px;
+  }
+  /* Nav menu */
   .logo-text {
     font-size: 2.2rem;
   }
@@ -105,10 +210,70 @@
   }
 
   /* Banner Section */
-}
+  .banner {
+    margin-bottom: 50px;
+    background-image: none;
+  }
+  .banner-content-container {
+    width: 100%;
+    flex: 0 0 50%;
+    padding: 50px 0px;
+    background-image: url(../images/bg_banner.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-content {
+    padding: 0 8%;
+  }
 
+  .banner-image {
+    flex: 0 0 50%;
+  }
+  .banner-image > img {
+    width: 100%;
+  }
+
+
+
+}
+/* large laptop / Desktop  max-width: 1440px*/
 @media screen and (min-width: 1128.2px) and (max-width: 1440px) {
-   body {
-      padding: 0 20px;
-    }
+  body {
+    padding: 0 20px;
+  }
+
+  /* Banner Section */
+  .banner {
+    margin-bottom: 50px;
+    background-image: none;
+  }
+  .banner-content-container {
+    width: 100%;
+    flex: 0 0 50%;
+    padding: 50px 0px;
+    background-image: url(../images/bg_banner.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-content {
+    padding: 0 8%;
+  }
+
+  .banner-image {
+    padding: 0 4%;
+
+    flex: 0 0 50%;
+  }
+  .banner-image > img {
+    width: 100%;
+  }
+
+
+
 }
