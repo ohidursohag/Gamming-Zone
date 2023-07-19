@@ -478,23 +478,21 @@
   font-weight: 600;
   color: var(--text-black);
 }
-.catagory-item:hover  {
-  border: 2px solid var(--bg-color-pink) ;
+.catagory-item:hover {
+  border: 2px solid var(--bg-color-pink);
 }
-.catagory-item:hover  span{
-  color: var(--bg-color-pink) ;
+.catagory-item:hover span {
+  color: var(--bg-color-pink);
 }
 
 /* ---- Main Content Section End Here -----*/
-
 
 /*---------- Footer Menu Start Here--------- */
 
 .footer {
   max-width: 1920px;
   margin: 0 auto;
-  background-color: #0B0223;
-
+  background-color: #0b0223;
 }
 
 .footer-container {
@@ -505,7 +503,7 @@
   color: var(--text-white);
 }
 
-.logo-container {
+.footer-logo-container {
   width: fit-content;
   margin: 0 auto;
   margin-bottom: 4rem;
@@ -514,7 +512,8 @@
   color: var(--text-white);
 }
 
-.footer-nav-1, .footer-nav-2 {
+.footer-nav-1,
+.footer-nav-2 {
   height: 100px;
   display: flex;
   justify-content: center;
@@ -522,15 +521,16 @@
   flex-wrap: wrap;
   margin-bottom: 4rem;
 }
-.footer-nav-1 >li {
+.footer-nav-1 > li {
   list-style: none;
-  flex: 0 0 130px ;
+  flex: 0 0 130px;
 }
 .footer-nav-2 > li {
   list-style: none;
-  flex: 0 0 190px ;
+  flex: 0 0 190px;
 }
-.footer-nav-1 >li > a, .footer-nav-2> li > a {
+.footer-nav-1 > li > a,
+.footer-nav-2 > li > a {
   text-decoration: none;
   font-size: 1.1rem;
   font-weight: 600;
@@ -550,3 +550,9 @@
   flex: 0 0 100px;
 }
 
+.copyright-info > p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.6);
+}
+/*..... Footer Section End Here ........ */
