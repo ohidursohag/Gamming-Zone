@@ -145,6 +145,15 @@
 .banner-button-2 {
   background-color: var(--button-bg-blue);
 }
+.banner-button-2:hover{
+  background-color: var(--bg-color-pink);
+}
+
+.banner-button-1:hover,
+.gamer-button:hover {
+  background-color: var(--button-bg-blue);
+  color: var(--bg-color-pink);
+}
 /* Banner Section End */
 /*------ Header Section End Here ------- */
 
@@ -435,6 +444,11 @@
   color: var(--bg-color-pink);
 }
 
+.career-btn:hover {
+  background-color: var(--button-bg-blue);
+  color: var(--text-white);
+}
+
 .career-section-image-container {
   flex: 0 0 40%;
 }
@@ -535,8 +549,11 @@
   font-size: 1.1rem;
   font-weight: 600;
   color: var(--text-white);
+  transition: .3s;
 }
-
+.footer-nav-1> li:hover a, .footer-nav-2 > li:hover a {
+  color: var(--bg-color-pink);
+}
 .social-midea-container {
   max-width: 700px;
   height: 120px;
