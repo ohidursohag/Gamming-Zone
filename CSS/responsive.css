@@ -97,53 +97,57 @@
   .our-purpose > span {
     font-size: 1.2rem;
   }
-/*  game Funy Video Section */
-.video-contents {
-  justify-content: center;
-}
+  /*  game Funy Video Section */
+  .video-contents {
+    justify-content: center;
+  }
 
   /* Play Instant + play Online Section  */
-  .play-instant-section-container {
+  .play-instant-section-container,
+  .play-online-section-container {
     margin-bottom: 100px;
-    padding: 0 4%;
-
+    padding: 0 5%;
   }
   .play-instant-section-content {
     flex-direction: column;
     gap: 50px;
-    
   }
   .play-online-section-content {
     flex-direction: column-reverse;
-    gap:50px ;
+    gap: 50px;
   }
-  .play-instant-section-content, .play-online-section-content {
+  .play-instant-section-content,
+  .play-online-section-content {
     text-align: center;
   }
-  .play-instant-text-content, .play-online-text-content {
+  .play-instant-text-content,
+  .play-online-text-content {
     text-align: center;
-  flex: 0 0 auto;
+    flex: 0 0 auto;
   }
   .play-online-title br {
     display: none;
   }
-  .play-instant-images, .play-online-images {
-    flex: 0 0 auto;
-
+  .play-instant-description, .play-online-description {
+    padding: 0 5%;
   }
-  .instant-image-1, .online-image-1{
+  .play-instant-images,
+  .play-online-images {
+    flex: 0 0 auto;
+  }
+  .instant-image-1,
+  .online-image-1 {
     width: 60%;
   }
-  .instant-image-2{
+  .instant-image-2 {
     width: 25%;
     left: 10%;
   }
-  
+
   .online-image-2 {
     width: 25%;
     right: 10%;
   }
-
 }
 
 /* ------- Small Tab max-width: 768px */
@@ -225,10 +229,54 @@
   }
 
   /*  game Funy Video Section */
-.video-contents {
-  justify-content: center;
-}
-  
+  .video-contents {
+    justify-content: center;
+  }
+  /* Play Instant + play Online Section  */
+  .play-instant-section-container, .play-online-section-container {
+    margin-bottom: 100px;
+    padding: 0 6%;
+  }
+  .play-instant-section-content {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .play-online-section-content {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  .play-instant-section-content,
+  .play-online-section-content {
+    text-align: center;
+  }
+  .play-instant-text-content,
+  .play-online-text-content {
+    text-align: center;
+    flex: 0 0 auto;
+  }
+  .play-online-title br {
+    display: none;
+  }
+  .play-instant-description, .play-online-description {
+    padding: 0 7%;
+  }
+  .play-instant-images,
+  .play-online-images {
+    flex: 0 0 auto;
+  }
+  .instant-image-1,
+  .online-image-1 {
+    width: 70%;
+  }
+  .instant-image-2 {
+    width: 25%;
+    left: 5%;
+  }
+
+  .online-image-2 {
+    width: 25%;
+    right: 5%;
+  }
 }
 
 /* large Tab Max-width: 992px */
@@ -318,7 +366,51 @@
   .video-contents {
     justify-content: center;
   }
+  /* Play Instant + play Online Section  */
+  .play-instant-section-container, .play-online-section-container {
+    margin-bottom: 100px;
+    padding: 0 8%;
+  }
+  .play-instant-section-content {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .play-online-section-content {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  .play-instant-section-content,
+  .play-online-section-content {
+    text-align: center;
+  }
+  .play-instant-text-content,
+  .play-online-text-content {
+    text-align: center;
+    flex: 0 0 auto;
+  }
+  .play-online-title br {
+    display: none;
+  }
+  .play-instant-description, .play-online-description {
+    padding: 0 8%;
+  }
+  .play-instant-images,
+  .play-online-images {
+    flex: 0 0 auto;
+  }
+  .instant-image-1,
+  .online-image-1 {
+    width: 70%;
+  }
+  .instant-image-2 {
+    width: 25%;
+    left: 5%;
+  }
 
+  .online-image-2 {
+    width: 25%;
+    right: 5%;
+  }
 }
 
 /* Small Laptops max-width:122px */
@@ -388,6 +480,24 @@
   .video-contents {
     justify-content: center;
   }
+  /* Play Instant + play Online Section  */
+  .play-instant-section-container, .play-online-section-container {
+    margin-bottom: 120px;
+    padding: 0 8%;
+  }
+
+  .play-instant-title, .play-online-title {
+    font-size: 2.2rem;
+  }
+  
+  .instant-image-2 {
+    width: 40%;
+    left: -20%;
+  }
+  .online-image-2 {
+    width: 40%;
+    right: -20%;
+  }
 
 }
 /* large laptop / Desktop  max-width: 1440px*/
@@ -436,8 +546,31 @@
     padding: 0 5%;
   }
 
-    /* game Funy Video Section */
-    .video-contents {
-      justify-content: center;
-    }
+  /* game Funy Video Section */
+  .video-contents {
+    justify-content: center;
+  }
+   /* Play Instant + play Online Section  */
+   .play-instant-section-container, .play-online-section-container {
+    margin-bottom: 140px;
+    padding: 0 6%;
+  }
+
+  .play-instant-title, .play-online-title {
+    font-size: 3rem;
+  }
+  .play-instant-text-content {
+    flex: 0 0 35%;
+  }
+  
+  .instant-image-2 {
+    width: 40%;
+    left: -20%;
+  }
+  .online-image-2 {
+    width: 40%;
+    right: -20%;
+  }
+
+  
 }

@@ -340,7 +340,7 @@
 
 .play-instant-images, .play-online-images {
   position: relative;
-  flex: 0 0 45%;
+  flex: 0 0 50%;
 }
 .instant-image-1, .online-image-1  {
   width: 100%;
@@ -349,7 +349,6 @@
   position: absolute;
   bottom: -15%;
   left: -25%;
-
 }
 
 
