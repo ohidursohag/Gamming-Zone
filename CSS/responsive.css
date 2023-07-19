@@ -511,9 +511,8 @@
   margin: 0 auto;
 }
 /* Cetagories Section */
-.catagories-container {
-  margin-bottom: 50px;
-}
+
+
 
 }
 
@@ -629,7 +628,9 @@
   }
 
   /* catagories Section */
-  margin-bottom: 50px;
+  .catagory-items {
+    height: auto;
+  }
 
 
 }
