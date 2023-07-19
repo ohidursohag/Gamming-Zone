@@ -240,9 +240,8 @@
 .video-contents {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  /* align-content: center; */
   gap: 30px;
 }
 
@@ -385,7 +384,7 @@
   padding: 130px 0;
   margin: 0 auto;
   background-color: var(--bg-color-pink);
-  background-image: url(../images/bg_careers_1.png);
+
   background-position: right bottom;
   background-repeat: no-repeat;
   margin-bottom: 120px;
@@ -421,10 +420,12 @@
   align-items: center;
   margin-bottom: 2.5rem;
 }
-.column-1, .column-2 {
+.column-1,
+.column-2 {
   font-size: 1.25rem;
 }
-.column-1 > div, .column-2 > div {
+.column-1 > div,
+.column-2 > div {
   margin-bottom: 1rem;
 }
 .column-2 {
@@ -437,8 +438,115 @@
 .career-section-image-container {
   flex: 0 0 40%;
 }
-.career-section-image-container > img{
+.career-section-image-container > img {
   width: 100%;
 }
 
+/*  Gaming Catagory SEction  */
+
+.catagories-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px 0;
+  margin-bottom: 100px;
+}
+
+.catagory-items {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-content: center;
+}
+.catagory-item {
+  justify-self: center;
+  height: 80px;
+  width: 270px;
+  padding: 10px;
+  border-radius: 50px;
+  transition: all 0.3s;
+}
+.catagory-item a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-black);
+}
+.catagory-item:hover  {
+  border: 2px solid var(--bg-color-pink) ;
+}
+.catagory-item:hover  span{
+  color: var(--bg-color-pink) ;
+}
+
 /* ---- Main Content Section End Here -----*/
+
+
+/*---------- Footer Menu Start Here--------- */
+
+.footer {
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: #0B0223;
+
+}
+
+.footer-container {
+  padding: 120px 0;
+  max-width: 820px;
+  text-align: center;
+  margin: 0 auto;
+  color: var(--text-white);
+}
+
+.logo-container {
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+.footer-logo-text {
+  color: var(--text-white);
+}
+
+.footer-nav-1, .footer-nav-2 {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 4rem;
+}
+.footer-nav-1 >li {
+  list-style: none;
+  flex: 0 0 130px ;
+}
+.footer-nav-2 > li {
+  list-style: none;
+  flex: 0 0 190px ;
+}
+.footer-nav-1 >li > a, .footer-nav-2> li > a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-white);
+}
+
+.social-midea-container {
+  max-width: 700px;
+  height: 120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.social-media-item {
+  flex: 0 0 100px;
+}
+
