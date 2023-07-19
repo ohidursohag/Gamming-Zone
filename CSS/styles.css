@@ -302,13 +302,11 @@
   padding: 0 0 0 10px;
 }
 /* Play Instanly Section */
-.play-instant-section-container
-{
+.play-instant-section-container {
   max-width: 1440px;
   margin: 0 auto 200px auto;
-  
 }
-.play-instant-section-content{
+.play-instant-section-content {
   max-width: 1240px;
   margin-left: auto;
   display: flex;
@@ -319,30 +317,35 @@
   flex: 0 0 30%;
   text-align: right;
 }
-.play-instant-title, .play-online-title {
+.play-instant-title,
+.play-online-title {
   color: var(--text-black);
   font-size: 3rem;
   font-weight: 700;
   line-height: 60px;
 }
-.play-instant-title > span, .play-online-title > span {
+.play-instant-title > span,
+.play-online-title > span {
   color: transparent;
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   -webkit-background-clip: text;
 }
 
-.play-instant-description, .play-online-description {
+.play-instant-description,
+.play-online-description {
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.875rem;
   color: var(--text-description);
 }
 
-.play-instant-images, .play-online-images {
+.play-instant-images,
+.play-online-images {
   position: relative;
   flex: 0 0 50%;
 }
-.instant-image-1, .online-image-1  {
+.instant-image-1,
+.online-image-1 {
   width: 100%;
 }
 .instant-image-2 {
@@ -350,7 +353,6 @@
   bottom: -15%;
   left: -25%;
 }
-
 
 /* Play Games Online */
 .play-online-section-container {
@@ -376,7 +378,67 @@
   right: -25%;
 }
 
+/* Careers Section */
 
+.careers-section-container {
+  max-width: 1920px;
+  padding: 130px 0;
+  margin: 0 auto;
+  background-color: var(--bg-color-pink);
+  background-image: url(../images/bg_careers_1.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  margin-bottom: 120px;
+}
 
+.careers-section-content {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.career-section-text-contents {
+  flex: 0 0 50%;
+  color: var(--text-white);
+}
+.careers-section-title {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 1.5rem;
+}
+.career-section-title-description {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  margin-bottom: 2rem;
+}
+
+.careers-section-column-text-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+.column-1, .column-2 {
+  font-size: 1.25rem;
+}
+.column-1 > div, .column-2 > div {
+  margin-bottom: 1rem;
+}
+.column-2 {
+  text-align: right;
+}
+.career-btn {
+  color: var(--bg-color-pink);
+}
+
+.career-section-image-container {
+  flex: 0 0 40%;
+}
+.career-section-image-container > img{
+  width: 100%;
+}
 
 /* ---- Main Content Section End Here -----*/

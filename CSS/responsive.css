@@ -148,6 +148,37 @@
     width: 25%;
     right: 10%;
   }
+
+/* Career Section */
+.careers-section-container {
+  background-image: none;
+  padding: 50px 0;
+}
+
+.careers-section-content {
+  padding: 0 4%;
+  flex-direction: column;
+  row-gap: 50px;
+}
+.careers-section-title {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.column-1, .column-2 {
+  font-size: 0.8rem;
+}
+.career-section-title-description {
+  font-size: 0.8rem;
+  text-align: justify;
+}
+.career-button {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+
+
 }
 
 /* ------- Small Tab max-width: 768px */
@@ -277,6 +308,37 @@
     width: 25%;
     right: 5%;
   }
+
+  /* Career Section */
+.careers-section-container {
+  background-image: none;
+  padding: 50px 0;
+}
+
+.careers-section-content {
+  padding: 0 4%;
+  flex-direction: column;
+  row-gap: 50px;
+}
+.careers-section-title {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.column-1, .column-2 {
+  font-size: 1rem;
+}
+.career-section-title-description {
+  font-size: 1rem;
+  text-align: justify;
+}
+.career-button {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+
+
 }
 
 /* large Tab Max-width: 992px */
@@ -411,6 +473,32 @@
     width: 25%;
     right: 5%;
   }
+
+   /* Career Section */
+.careers-section-container {
+  background-image: none;
+  padding: 50px 0;
+}
+
+.careers-section-content {
+  padding: 0 4%;
+  flex-direction: column;
+  row-gap: 50px;
+}
+.careers-section-title {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+
+.career-section-title-description {
+  text-align: justify;
+}
+.career-button {
+  width: fit-content;
+  margin: 0 auto;
+}
+
 }
 
 /* Small Laptops max-width:122px */
@@ -499,6 +587,31 @@
     right: -20%;
   }
 
+  .careers-section-container {
+    background-image: none;
+    padding: 50px 0;
+  }
+  
+  .careers-section-content {
+    padding: 0 4%;
+    flex-direction: column;
+    row-gap: 50px;
+  }
+  .careers-section-title {
+    width: fit-content;
+    margin: 0 auto;
+  }
+  
+  
+  .career-section-title-description {
+    text-align: justify;
+  }
+  .career-button {
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+
 }
 /* large laptop / Desktop  max-width: 1440px*/
 @media screen and (min-width: 1128.2px) and (max-width: 1440px) {
@@ -571,6 +684,13 @@
     width: 40%;
     right: -20%;
   }
+  /* Careeer Section */
+  .careers-section-container {
+    background-size: 55% 895px;
+  }
+  .careers-section-content {
+    padding: 13px 5%;
+  }
 
-  
+
 }
