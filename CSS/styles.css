@@ -404,7 +404,7 @@
 
   background-position: right bottom;
   background-repeat: no-repeat;
-  margin-bottom: 120px;
+  margin-bottom: 50px;
 }
 
 .careers-section-content {
@@ -470,7 +470,7 @@
   max-width: 1440px;
   margin: 0 auto;
   padding: 20px 0;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .catagory-items {
@@ -494,7 +494,6 @@
 .catagory-item a {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 1rem;
   text-decoration: none;
 

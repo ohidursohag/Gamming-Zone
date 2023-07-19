@@ -153,6 +153,7 @@
 .careers-section-container {
   background-image: none;
   padding: 50px 0;
+  margin-bottom: 20px;
 }
 
 .careers-section-content {
@@ -176,7 +177,13 @@
   width: fit-content;
   margin: 0 auto;
 }
-
+/* catagories Section */
+.catagories-container{
+  margin-bottom: 20px;
+}
+.catagory-items {
+  height: auto;
+}
 
 
 }
@@ -313,6 +320,7 @@
 .careers-section-container {
   background-image: none;
   padding: 50px 0;
+  margin-bottom: 50px;
 }
 
 .careers-section-content {
@@ -336,7 +344,10 @@
   width: fit-content;
   margin: 0 auto;
 }
-
+/* Cetagories Section */
+.catagories-container {
+  margin-bottom: 50px;
+}
 
 
 }
@@ -478,6 +489,7 @@
 .careers-section-container {
   background-image: none;
   padding: 50px 0;
+  margin-bottom: 50px;
 }
 
 .careers-section-content {
@@ -497,6 +509,10 @@
 .career-button {
   width: fit-content;
   margin: 0 auto;
+}
+/* Cetagories Section */
+.catagories-container {
+  margin-bottom: 50px;
 }
 
 }
@@ -586,10 +602,11 @@
     width: 40%;
     right: -20%;
   }
-
+/* Careers Section */
   .careers-section-container {
     background-image: none;
     padding: 50px 0;
+    margin-bottom: 0px;
   }
   
   .careers-section-content {
@@ -610,6 +627,9 @@
     width: fit-content;
     margin: 0 auto;
   }
+
+  /* catagories Section */
+  margin-bottom: 50px;
 
 
 }
@@ -686,11 +706,14 @@
   }
   /* Careeer Section */
   .careers-section-container {
-    background-size: 55% 895px;
+    margin-bottom: 0px;
   }
   .careers-section-content {
     padding: 13px 5%;
   }
-
+/* Cetagoreis Section */
+.catagories-container {
+  margin-bottom: 20px;
+}
 
 }
