@@ -59,6 +59,13 @@
 .nav-bar li {
   list-style: none;
 }
+.nav-bar li a {
+  text-decoration: none;
+  color: var(--text-description);
+}
+.nav-bar li:hover a {
+  color: var(--bg-color-pink);
+}
 .follow-us {
   flex: 0 0 50%;
   border-radius: 8px;
@@ -136,6 +143,7 @@
   border: none;
   border-radius: 3rem;
   cursor: pointer;
+  transition:  .3s;
 }
 
 .banner-button-1,
